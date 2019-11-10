@@ -9,21 +9,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
-<script src="http://cdn.ckeditor.com/4.6.1/standard/ckeditor.js"></script>
+    <script src="http://cdn.ckeditor.com/4.6.1/standard/ckeditor.js"></script>
 </head>
 
 <body>
     <div class="register-photo">
         <div class="form-container">
-            <div class="image-holder" style="background-image:url(&quot;https://images.unsplash.com/photo-1561058195-308d234bfc0c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80&quot;);background-position:center;background-size:cover;"></div>
+            <div class="image-holder"
+                style="background-image:url(&quot;https://images.unsplash.com/photo-1561058195-308d234bfc0c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80&quot;);background-position:center;background-size:cover;">
+            </div>
             <form method="post">
                 <h2 class="text-center"><strong>Create</strong> an account.</h2>
                 <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-                <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password"
+                        placeholder="Password"></div>
+                <div class="form-group"><input class="form-control" type="password" name="password-repeat"
+                        placeholder="Password (repeat)"></div>
                 <div class="form-group">
-                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
-                </div><button class="btn btn-dark btn-block" type="submit" data-bs-hover-animate="pulse">Create an account<br></button><a href="login.html" class="already" style="margin:12px 0px 0px 0px;">You already have an account? Login here.</a></form>
+                    <div class="form-check"><label class="form-check-label"><input class="form-check-input"
+                                type="checkbox">I agree to the license terms.</label></div>
+                </div><button class="btn btn-dark btn-block" type="submit" data-bs-hover-animate="pulse">Create an
+                    account<br></button><a href="login.html" class="already" style="margin:12px 0px 0px 0px;">You
+                    already have an account? Login here.</a>
+            </form>
         </div>
     </div>
     <footer id="footer" style="background-color:#343a40;padding:20px;">
@@ -34,13 +42,12 @@
 
     <!--- Replacing Editors With CKEDITOR-->
 
-<script>
-    // Replace the <textarea id="editor1"> with a CKEditor
-    // instance, using default configuration.
-    CKEDITOR.replace( 'editor1' );
-    CKEDITOR.replace( 'editor2' );
-
-</script>
+    <script>
+        // Replace the <textarea id="editor1"> with a CKEditor
+        // instance, using default configuration.
+        CKEDITOR.replace('editor1');
+        CKEDITOR.replace('editor2');
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>

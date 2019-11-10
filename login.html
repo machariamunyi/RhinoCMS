@@ -9,41 +9,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
-<script src="http://cdn.ckeditor.com/4.6.1/standard/ckeditor.js"></script>
+    <script src="http://cdn.ckeditor.com/4.6.1/standard/ckeditor.js"></script>
 </head>
 
 <body>
     <div class="login-clean">
         <form action="index.html" method="post" style="width:430px;height:486px;">
             <h2 class="sr-only">Login Form</h2>
-            <div class="illustration"><img class="rounded-circle" style="background-image:url(&quot;https://images.unsplash.com/photo-1561058195-308d234bfc0c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80&quot;);color:white;text-decoration:none;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px&quot; href=&quot;https://unsplash.com/@davidclode?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; title=&quot;Download free do whatever you want high-resolution photos from David Clode&quot;><span style=&quot;display:inline-block;width:100px;position:relative;vertical-align:middle;top:-2px;fill:white&quot; viewBox=&quot;0 0 32 32&quot;><title>unsplash-logo</title><path d=&quot;M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z&quot;></path></svg></span><span style=&quot;display:inline-block;height:100px;background-size:cover;background-position:center;"></div>
-            <div
-                class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-    <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-    <div class="form-group"><a class="btn btn-dark btn-block" role="button" href="index.html" data-bs-hover-animate="pulse">Log In</a><a class="btn btn-outline-dark btn-block" role="button" href="createaccount.html" data-bs-hover-animate="pulse">Create account<br></a></div>
-    <a
-        href="reset.html" data-bs-hover-animate="pulse" class="forgot">Forgot your email or password?</a>
-        </form>
-        </div>
-        <footer id="footer" style="background-color:#343a40;padding:20px;">
-            <div class="container">
-                <p class="text-center text-white" style="margin:10px;">Copyright RhinoCMS, © 2019<br></p>
+            <div class="illustration"><img class="rounded-circle"
+                    style="background-image:url(&quot;https://images.unsplash.com/photo-1561058195-308d234bfc0c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80&quot;);color:white;text-decoration:none;font-family:-apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Ubuntu, Roboto, Noto, &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px&quot; href=&quot;https://unsplash.com/@davidclode?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; title=&quot;Download free do whatever you want high-resolution photos from David Clode&quot;><span style=&quot;display:inline-block;width:100px;position:relative;vertical-align:middle;top:-2px;fill:white&quot; viewBox=&quot;0 0 32 32&quot;><title>unsplash-logo</title><path d=&quot;M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z&quot;></path></svg></span><span style=&quot;display:inline-block;height:100px;background-size:cover;background-position:center;">
             </div>
-        </footer>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="form-group"><a class="btn btn-dark btn-block" role="button" href="index.html"
+                    data-bs-hover-animate="pulse">Log In</a><a class="btn btn-outline-dark btn-block" role="button"
+                    href="createaccount.html" data-bs-hover-animate="pulse">Create account<br></a></div>
+            <a href="reset.html" data-bs-hover-animate="pulse" class="forgot">Forgot your email or password?</a>
+        </form>
+    </div>
+    <footer id="footer" style="background-color:#343a40;padding:20px;">
+        <div class="container">
+            <p class="text-center text-white" style="margin:10px;">Copyright RhinoCMS, © 2019<br></p>
+        </div>
+    </footer>
 
-        <!--- Replacing Editors With CKEDITOR-->
+    <!--- Replacing Editors With CKEDITOR-->
 
-<script>
-    // Replace the <textarea id="editor1"> with a CKEditor
-    // instance, using default configuration.
-    CKEDITOR.replace( 'editor1' );
-    CKEDITOR.replace( 'editor2' );
+    <script>
+        // Replace the <textarea id="editor1"> with a CKEditor
+        // instance, using default configuration.
+        CKEDITOR.replace('editor1');
+        CKEDITOR.replace('editor2');
+    </script>
 
-</script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/script.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
