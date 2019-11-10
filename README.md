@@ -4,7 +4,7 @@ This is just a fronted recreation of
 <br> tutorial by <a href="https://www.youtube.com/user/TechGuyWeb/"> Traversy Media</a>
 <br>Using <a href="https://bootstrapstudio.io/"> Boostrap Studio </a>
 <br>
-<title> Tools Used <title>
+<h2> Tools Used <h2>
     <ul style="list-style-type:square;">
       <li>Bootstrap 4.0 - Default Theme</li>
       <li>jQuery 3.2.1</li>
